@@ -25,7 +25,7 @@ int main() {
 	{
 		if (primesList[i] == true) 
 		{
-			primes << "i\n" << ;
+			primes << "i\n";
 		}
 	}
 	primes.close();
