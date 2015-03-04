@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    char level("easy", "medium", "super hard"); //excess elements in scalar initializer
-    char name("Diana"); //cannot initialize a variable of type char with an Ivalue of type 'const char'
+    string::level; //excess elements in scalar initializer
+    string::name; //cannot initialize a variable of type char with an Ivalue of type 'const char'
     float a, b;
     cout << "input a level of difficulty : easy, medium, or super hard" << endl;
     cin >> level;
@@ -24,7 +24,7 @@ int main()
     {
         cout << "Juan Pablo and Diana are racing to grab their dog chiquis. Juan Pablo is 500 ft from their dog and Diana is only 300 ft away. JP runs 8 ft persecond. Camila runs 6 ft per second, but she trips over a pile of dirt and starts 1 second later than Bert. Who gets to the ducky first?" << endl;
         cin >> name;
-        if (name = Diana) //use of unceclared identifier 'Diana'
+        if (name = "Diana") //use of unceclared identifier 'Diana'
         {
             cout << "YOU GOT IT" << endl;
         }
