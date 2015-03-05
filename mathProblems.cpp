@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    string::level; //excess elements in scalar initializer
-    string::name; //cannot initialize a variable of type char with an Ivalue of type 'const char'
+    string::level(); //excess elements in scalar initializer
+    string::name(); //cannot initialize a variable of type char with an Ivalue of type 'const char'
     float a, b;
     cout << "input a level of difficulty : easy, medium, or super hard" << endl;
     cin >> level;
